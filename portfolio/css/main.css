@@ -1,4 +1,4 @@
-/* PORTFOLIO*/
+/* PORTFOLIO CSS HAMBURGER NAV */
 /*
 Portfolio main.css
 350px smallest phone
@@ -69,9 +69,9 @@ a:link {
   padding: .2% 1%;
 }
 
-.img {
+img {
   /* if width goes over 60% in mobile/tablet size, it makes the body wider than the viewport: need to scroll horozontally */
-  width: 125%;
+  width: 60%;
   margin: 20%;
 }
 
@@ -148,7 +148,6 @@ a:link {
     position: absolute;
     right: 0px;
     top: 0px;
-    margin-right: 5%;
   }
   .nav > .nav-btn > label {
     display: inline-block;
@@ -189,21 +188,11 @@ a:link {
 /* ===================END pop out menu====== ========== */
 
 
-/* .pic {
-  /* display: inline-block; */
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 55%;
-} */
-
-.bioPic {
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
-
+.pic {
+  /* background-image: url("images/donutSelfie.jpg"); */
+  display: inline-block;
+  width: 35%;
+  margin-bottom: 10%;
 }
 
 .bio {
@@ -269,6 +258,8 @@ input[type=submit]:hover {
 
   .bio {
       display: inline-block;
+      width: 55%;
+      padding: 5%;
       vertical-align: top;
   }
 
