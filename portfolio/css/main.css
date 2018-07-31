@@ -1,4 +1,4 @@
-/* PORTFOLIO CSS HAMBURGER NAV */
+/* PORTFOLIO main.css */
 /*
 Portfolio main.css
 350px smallest phone
@@ -56,17 +56,22 @@ a:link {
   text-decoration: none;
 }
 
-.text{
+.text {
   /* Centering= use the next four rules: position, top, left, transform */
   position: absolute;
-  top: 50%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 5.0vw;
+  /* font-size: 5.0vw; */
   font-weight: lighter;
   margin-top: -4.5%;
   color: black;
   padding: .2% 1%;
+}
+
+.gitIcon {
+  display: block;
+  margin-top: 10%;
 }
 
 img {
