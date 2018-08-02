@@ -80,6 +80,13 @@ img {
   margin: 20%;
 }
 
+.bioPic {
+  width: 100%;
+  /* margin: 25%; */
+  display: inline-block;
+
+}
+
   .picAndBio {
     margin-top: 25%;
     text-align: center;
