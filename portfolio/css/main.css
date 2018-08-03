@@ -43,7 +43,7 @@ body {
 .aboutContent {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 1% 1% 10% 1%;
+  padding: 1%;
 }
 
 .boxes {
@@ -81,8 +81,8 @@ img {
 }
 
 .bioPic {
+  margin: 0% 4.5% 20% 4.5%;
   width: 100%;
-  /* margin: 25%; */
   display: inline-block;
 
 }
@@ -201,10 +201,9 @@ img {
 
 
 .pic {
-  /* background-image: url("images/donutSelfie.jpg"); */
   display: inline-block;
   width: 35%;
-  margin-bottom: 10%;
+  /* margin-bottom: 5%; */
 }
 
 .bio {
@@ -215,39 +214,6 @@ img {
 .bioText {
   font-size: 2.0vw;
 }
-
-
-
-/* START CONTACT INFO --------------------- */
-/* Style inputs */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #000000;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #595b5e;
-}
-
-
-
-
-
-
-
-/* END CONTACT INFO------------------------ */
 
 
 @media screen and (min-width: 601px) {
@@ -280,7 +246,7 @@ input[type=submit]:hover {
   }
 
   img {
-    margin:6% 4.5%;;
+    margin:6% 4.5%;
   }
 
   .thumbnail {
