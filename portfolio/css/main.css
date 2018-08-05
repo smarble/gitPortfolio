@@ -56,6 +56,10 @@ a:link {
   text-decoration: none;
 }
 
+.text a {
+    color: black;
+  }
+
 .text {
   /* Centering= use the next four rules: position, top, left, transform */
   position: absolute;
