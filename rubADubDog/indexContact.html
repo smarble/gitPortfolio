@@ -32,17 +32,30 @@
 
       <div class=banner>
         <div class="bannerText">
-          <h1>MAKE A SALON & SPA</h1>
-          <h1>APPOINTMENT</h1>
-          <button class="woofButton">WOOF!</button>
+          <h1>SCHEDULE AN APPOINTMENT OR CONSULTATION.</h1>
+
         </div>
       </div>
 
-        <div class="contentSelf">
-          <p class="selfBlurb">
-           Try our Self-Bathing facilities.
-           We have state of the art stainless steel wash basins, multi pressure water sprayers, and comfort mats for you and your pooch. Harnesses and a helping hand are available for mobility challenged pets.
-         </p>
+        <div class="contentContact">
+          <div class="container">
+              <h1 class="scheduleText">Call 1-555-123456 to schedule now or use the contact form.</h1>
+                <form action="action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+          </div>
 
 
         </div>
