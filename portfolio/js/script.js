@@ -1,4 +1,4 @@
-// Portfolio
+// Portfolio: script.js
 // Usefull console commands: console.log("Click")
 
 
